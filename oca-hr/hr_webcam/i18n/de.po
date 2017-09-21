@@ -1,0 +1,63 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_webcam
+# 
+# Translators:
+# Thomas A. Jaeger, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: hr (8.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-06 00:27+0000\n"
+"PO-Revision-Date: 2015-11-05 14:48+0000\n"
+"Last-Translator: Thomas A. Jaeger\n"
+"Language-Team: German (http://www.transifex.com/oca/OCA-hr-8-0/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: hr_webcam
+#. openerp-web
+#: code:addons/hr_webcam/static/src/xml/hr_webcam.xml:10
+#, python-format
+msgid "Close Window"
+msgstr "Fenster schliessen"
+
+#. module: hr_webcam
+#: model:ir.model,name:hr_webcam.model_hr_employee
+msgid "Employee"
+msgstr "Angestellter"
+
+#. module: hr_webcam
+#: model:ir.actions.client,name:hr_webcam.action_client_employees_menu
+msgid "Open Employees Menu"
+msgstr "Mitarbeiter Menu öffnen"
+
+#. module: hr_webcam
+#. openerp-web
+#: code:addons/hr_webcam/static/src/xml/hr_webcam.xml:4
+#, python-format
+msgid "Photo Booth"
+msgstr "Foto Kabine"
+
+#. module: hr_webcam
+#: view:hr.employee:hr_webcam.view_employee_form
+#: model:ir.actions.client,name:hr_webcam.action_take_photo
+msgid "Take Picture"
+msgstr "Bild machen"
+
+#. module: hr_webcam
+#. openerp-web
+#: code:addons/hr_webcam/static/src/xml/hr_webcam.xml:10
+#, python-format
+msgid "Take a Picture"
+msgstr "Ein Bild machen"
+
+#. module: hr_webcam
+#. openerp-web
+#: code:addons/hr_webcam/static/src/xml/hr_webcam.xml:6
+#, python-format
+msgid "Webcam"
+msgstr "Webcam"

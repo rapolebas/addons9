@@ -1,0 +1,17 @@
+<openerp>
+  <data>
+
+    <menuitem name="Claims"
+      id="menu_report_mgmtsystem_action_tree"
+      action="action_report_mgmtsystem_claim"
+      parent="mgmtsystem.menu_mgmtsystem_report"
+      sequence="20"/>
+
+    <menuitem 
+      id="menu_config_claim" 
+      name="Claims"
+      parent="mgmtsystem.menu_mgmtsystem_configuration" 
+      sequence="20" />
+
+  </data>
+</openerp>

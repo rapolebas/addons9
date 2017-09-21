@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_hr_timesheet_reminder_config_form" model="ir.ui.view">
+            <field name="name">hr.timesheet.reminder.config.form</field>
+            <field name="model">hr.timesheet.reminder.config</field>
+            <field name="arch" type="xml">
+                <form string="Timesheet Reminder" version="7.0">
+                    <sheet>
+                        <group>
+                            <separator string="Periodicity" colspan="4"/>
+                            <field name="reminder_active" />
+                            <newline/>
+                            <field name="nextcall" attrs="{'required':[('reminder_active','==',True)]}"/>
+                            <newline/>
+                            <label for="interval_number" string="Then send message every"/>
+                            <div>
+                                <field name="interval_number" class="oe_inline"
+                                    attrs="{'required':[('reminder_active','==',True)]}"/>
+                                <field name="interval_type" nolabel="1" class="oe_inline"
+                                    attrs="{'required':[('reminder_active','==',True)]}"/>
+                            </div>
+                        </group>
+
+                        <group col="2">
+                            <separator string="Message" colspan="4"/>
+                            <field name="reply_to"/>
+                            <field name="subject"/>
+                            <field name="message" height="200"/>
+                        </group>
+                    </sheet>
+
+                    <footer>
+                        <button name="save" string="Save configuration" colspan="1"
+                            type="object" class="oe_highlight"/> or
+                        <button name="run" string="Run now" colspan="1"
+                            type="object" class="oe_highlight"/> or
+                        <button special="cancel" string="Cancel" class="oe_link"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_hr_timesheet_reminder_config" model="ir.actions.act_window">
+            <field name="name">Timesheet Reminder</field>
+            <field name="res_model">hr.timesheet.reminder.config</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_hr_timesheet_reminder_config_form"/>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem id="menu_hr_timesheet_reminder_config"
+            icon="STOCK_PRINT"
+            action="action_hr_timesheet_reminder_config"
+            parent="hr.menu_hr_configuration"
+            name="Timesheet Reminder"
+            groups="base.group_hr_manager"/>
+
+    </data>
+</openerp>

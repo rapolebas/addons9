@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+# Copyright (C) 2011 Michael Telahun Makonnen <mmakonnen@gmail.com>.
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+-->
+
+<odoo>
+
+    <record id="hr_children_view_tree" model="ir.ui.view">
+        <field name="name">hr.children.view.tree</field>
+        <field name="model">hr.employee.children</field>
+        <field name="arch" type="xml">
+            <tree string="Employee Children" editable="bottom">
+                <field name="name"/>
+                <field name="gender"/>
+                <field name="date_of_birth"/>
+            </tree>
+        </field>
+    </record>
+
+</odoo>

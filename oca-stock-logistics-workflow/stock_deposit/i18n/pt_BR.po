@@ -1,0 +1,247 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * stock_deposit
+# 
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-23 11:56+0000\n"
+"PO-Revision-Date: 2017-01-23 11:56+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/teams/23907/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: stock_deposit
+#: code:addons/stock_deposit/models/stock_warehouse.py:24
+#, python-format
+msgid " Sequence deposit %s"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_stock_quant_wizard_view
+msgid "Apply"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_stock_quant_wizard_view
+msgid "Cancel"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,help:stock_deposit.field_stock_location_deposit_location
+msgid "Check this box to allow using this location to put deposit goods."
+msgstr ""
+
+#. module: stock_deposit
+#: code:addons/stock_deposit/wizards/stock_quant_wizard.py:77
+#, python-format
+msgid ""
+"Could not reserve all requested products. Please you must handle the "
+"reservation manually."
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: stock_deposit
+#: code:addons/stock_deposit/wizards/stock_quant_wizard.py:56
+#, python-format
+msgid "Deposit %s"
+msgstr ""
+
+#. module: stock_deposit
+#: code:addons/stock_deposit/models/stock_warehouse.py:49
+#, python-format
+msgid "Deposit In"
+msgstr ""
+
+#. module: stock_deposit
+#: code:addons/stock_deposit/models/stock_warehouse.py:16
+#, python-format
+msgid "Deposit Location"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_quant_search_view
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_view_move_search
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_view_picking_internal_search
+msgid "Deposit Locations"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_quant_search_view
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_view_move_search
+msgid "Deposit Locations Excluded"
+msgstr ""
+
+#. module: stock_deposit
+#: code:addons/stock_deposit/models/stock_warehouse.py:64
+#, python-format
+msgid "Deposit Out"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_product_product_deposit_available
+#: model:ir.model.fields,field_description:stock_deposit.field_product_template_deposit_available
+msgid "Deposit Qty Available"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.menu,name:stock_deposit.menu_deposit_quants
+msgid "Deposited Inventory Valuation"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.actions.act_window,name:stock_deposit.deposit_quants_act
+msgid "Deposited Quants"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard_id
+msgid "ID"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_product_form_view_procurement_button
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_product_template_form_view_procurement_button
+msgid "In Deposit"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_stock_location
+msgid "Inventory Locations"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_stock_picking_is_deposit
+msgid "Is Deposit"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_stock_location_deposit_location
+msgid "Is a Deposit Location?"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_stock_picking_type_is_deposit
+msgid "Is a deposit"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.actions.act_window,name:stock_deposit.deposit_act_product_stock_move_open
+msgid "Moves"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_product_product
+msgid "Product"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_stock_quant
+msgid "Quants"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model.fields,field_description:stock_deposit.field_deposit_stock_quant_wizard_quants_action
+msgid "Quants Action"
+msgstr ""
+
+#. module: stock_deposit
+#: selection:deposit.stock.quant.wizard,quants_action:0
+msgid "Regularize"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.actions.act_window,name:stock_deposit.deposit_stock_quant_wizard_action
+msgid "Regularize Deposit Quants"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_stock_quant_wizard_view
+msgid "Stock Quant"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_stock_picking_type
+msgid "The picking type determines the picking view"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.actions.act_window,help:stock_deposit.deposit_quants_act
+msgid ""
+"This analysis gives you a fast overview on the current stock level of\n"
+"        your products in deposit locations."
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_stock_warehouse
+msgid "Warehouse"
+msgstr ""
+
+#. module: stock_deposit
+#: code:addons/stock_deposit/wizards/stock_quant_wizard.py:26
+#, python-format
+msgid "You can not regularize quants in a non deposit location"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_stock_quant_wizard_view
+msgid ""
+"You will be able to regularize this deposit quants\n"
+"                        making a automatic picking out."
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.model,name:stock_deposit.model_deposit_stock_quant_wizard
+msgid "deposit.stock.quant.wizard"
+msgstr ""
+
+#. module: stock_deposit
+#: model:ir.ui.view,arch_db:stock_deposit.deposit_stock_quant_wizard_view
+msgid "or"
+msgstr ""

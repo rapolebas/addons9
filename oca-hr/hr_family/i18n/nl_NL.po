@@ -1,0 +1,144 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * hr_family
+# 
+# Translators:
+# Barry Willems <bwillems@roc-dev.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: hr (9.0)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-24 02:14+0000\n"
+"PO-Revision-Date: 2016-12-24 08:51+0000\n"
+"Last-Translator: Barry Willems <bwillems@roc-dev.com>\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/oca/OCA-hr-9-0/language/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_children_ids
+#: model:ir.ui.view,arch_db:hr_family.hr_employee_view_form
+msgid "Children"
+msgstr "Kinderen"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_create_uid
+msgid "Created by"
+msgstr "Gemaakt door"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_create_date
+msgid "Created on"
+msgstr "Gemaakt op"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_date_of_birth
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_father_date_of_birth
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_mother_date_of_birth
+msgid "Date of Birth"
+msgstr "Geboortedatum"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_display_name
+msgid "Display Name"
+msgstr "Weergave naam"
+
+#. module: hr_family
+#: model:ir.model,name:hr_family.model_hr_employee
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_employee_id
+msgid "Employee"
+msgstr "Werknemer"
+
+#. module: hr_family
+#: model:ir.ui.view,arch_db:hr_family.hr_children_view_tree
+msgid "Employee Children"
+msgstr ""
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_spouse_employer
+msgid "Employer"
+msgstr ""
+
+#. module: hr_family
+#: model:ir.ui.view,arch_db:hr_family.hr_employee_view_form
+msgid "Family"
+msgstr "Familie"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_father
+msgid "Father's Name"
+msgstr "Vader's naam"
+
+#. module: hr_family
+#: selection:hr.employee.children,gender:0
+msgid "Female"
+msgstr "Vrouw"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_gender
+msgid "Gender"
+msgstr "Geslacht"
+
+#. module: hr_family
+#: model:ir.model,name:hr_family.model_hr_employee_children
+msgid "HR Employee Children"
+msgstr ""
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_id
+msgid "ID"
+msgstr ""
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children___last_update
+msgid "Last Modified on"
+msgstr "Laatst aangepast op"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_write_uid
+msgid "Last Updated by"
+msgstr "Laatst bijgewerkt door"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_write_date
+msgid "Last Updated on"
+msgstr "Laatst bijgewerkt op"
+
+#. module: hr_family
+#: selection:hr.employee.children,gender:0
+msgid "Male"
+msgstr "Man"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_mother
+msgid "Mother's Name"
+msgstr "Moeder's naam"
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_children_name
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_spouse
+msgid "Name"
+msgstr "Naam"
+
+#. module: hr_family
+#: selection:hr.employee.children,gender:0
+msgid "Other"
+msgstr "Anders"
+
+#. module: hr_family
+#: model:ir.ui.view,arch_db:hr_family.hr_employee_view_form
+msgid "Parents"
+msgstr "Ouders"
+
+#. module: hr_family
+#: model:ir.ui.view,arch_db:hr_family.hr_employee_view_form
+msgid "Spouse"
+msgstr ""
+
+#. module: hr_family
+#: model:ir.model.fields,field_description:hr_family.field_hr_employee_fam_spouse_tel
+msgid "Telephone."
+msgstr "Telefoon."

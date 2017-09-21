@@ -1,0 +1,13 @@
+id,server_configuration_id/id,sequence,command,name
+server_conf_16_04_server_cmd1,server_conf_16_04_server,1,sudo('apt-get update'),Apt get update
+server_conf_16_04_server_cmd2,server_conf_16_04_server,2,sudo('apt-get install -y python-pip wget git dtach nginx'),Install dependencies
+server_conf_16_04_server_cmd3,server_conf_16_04_server,3,sudo('curl -sSL https://get.docker.com/ | sh'),Install docker
+server_conf_16_04_server_cmd4,server_conf_16_04_server,4,sudo('mkdir -p -m 777 ' + server.syncked_backups_path + ' && mkdir -p -m 777 /opt/odoo/backups/tmp/'),Create some paths we use later
+server_conf_16_04_server_cmd5,server_conf_16_04_server,5,"append('/etc/hosts', """"""
+127.0.0.1 local1-test
+127.0.0.1 local1-prod
+127.0.0.1 local1-train
+127.0.0.1 local2-test
+127.0.0.1 local2-prod
+127.0.0.1 local2-train
+"""""", use_sudo=True,)",Add hosts used for testing

@@ -1,0 +1,26 @@
+# hecho en el travis para hacer cehckout y para poder usar travis
+#odoo-enterprise git@github.com:odoo/enterprise.git
+ingadhoc-enterprise-extensions https://github.com/ingadhoc/enterprise-extensions.git
+ingadhoc-argentina-reporting https://github.com/ingadhoc/argentina-reporting.git
+ingadhoc-account-financial-tools https://github.com/ingadhoc/account-financial-tools.git
+ingadhoc-account-invoicing https://github.com/ingadhoc/account-invoicing.git
+ingadhoc-account-analytic https://github.com/ingadhoc/account-analytic.git
+ingadhoc-multi-company https://github.com/ingadhoc/multi-company.git
+ingadhoc-product https://github.com/ingadhoc/product.git
+ingadhoc-project https://github.com/ingadhoc/project.git
+ingadhoc-purchase https://github.com/ingadhoc/purchase.git
+ingadhoc-sale https://github.com/ingadhoc/sale.git
+ingadhoc-website https://github.com/ingadhoc/website.git
+ingadhoc-hr https://github.com/ingadhoc/hr.git
+ingadhoc-patches https://github.com/ingadhoc/patches.git
+ingadhoc-adhoc-saas git@bitbucket.org:ingadhoc/adhoc-saas.git
+server-tools
+manufacture
+stock-logistics-warehouse
+purchase-workflow
+management-system
+knowledge
+social
+account-financial-reporting
+rma
+crm

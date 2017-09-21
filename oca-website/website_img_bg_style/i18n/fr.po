@@ -1,0 +1,130 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_img_bg_style
+# 
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2016
+# Pascal ZIMMERMANN <pascalpci@hotmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-25 04:20+0000\n"
+"PO-Revision-Date: 2017-02-25 04:20+0000\n"
+"Last-Translator: Pascal ZIMMERMANN <pascalpci@hotmail.com>, 2017\n"
+"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "100%"
+msgstr "100%"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "25%"
+msgstr "25%"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "50%"
+msgstr "50%"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "75%"
+msgstr ""
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Auto"
+msgstr "Auto"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Background style"
+msgstr "style de l'arrière plan"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Bottom"
+msgstr "Bas"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Center"
+msgstr "Centre"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Clipped"
+msgstr "Coupé"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Contain"
+msgstr "Contient"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Cover"
+msgstr "Couverture"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Left"
+msgstr "Gauche"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "None"
+msgstr "Aucune"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Position"
+msgstr "Position"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Repeat"
+msgstr "Répéter"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Right"
+msgstr "Droite"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Rounded"
+msgstr "arrondi"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Size"
+msgstr "Taille"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Spaced"
+msgstr "Espacer"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Top"
+msgstr "Haut"
+
+#. module: website_img_bg_style
+#: model:ir.ui.view,arch_db:website_img_bg_style.snippet_options
+msgid "Vertical"
+msgstr "Vertical"

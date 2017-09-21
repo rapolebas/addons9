@@ -1,0 +1,60 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * website_snippet_anchor
+# 
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2016
+# Pedro M. Baeza <pedro.baeza@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0c\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-24 04:17+0000\n"
+"PO-Revision-Date: 2016-12-24 04:17+0000\n"
+"Last-Translator: Pedro M. Baeza <pedro.baeza@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/oca/teams/23907/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: website_snippet_anchor
+#. openerp-web
+#: code:addons/website_snippet_anchor/static/src/xml/website_snippet_anchor.xml:12
+#, python-format
+msgid "Anchor"
+msgstr "Ancla"
+
+#. module: website_snippet_anchor
+#. openerp-web
+#: code:addons/website_snippet_anchor/static/src/js/website_snippet_anchor.js:41
+#, python-format
+msgid "Anchor %s already exists, choose another"
+msgstr "El ancla %s ya existe. Escoja otro nombre."
+
+#. module: website_snippet_anchor
+#. openerp-web
+#: code:addons/website_snippet_anchor/static/src/xml/website_snippet_anchor.xml:10
+#, python-format
+msgid "Anchors are appended to the URL like http://localhost/#your-anchor"
+msgstr "Las anclas se añaden a la URL como http://localhost/#su-ancla"
+
+#. module: website_snippet_anchor
+#: model:ir.ui.view,arch_db:website_snippet_anchor.snippet_options
+msgid "Change anchor"
+msgstr "Cambiar ancla"
+
+#. module: website_snippet_anchor
+#. openerp-web
+#: code:addons/website_snippet_anchor/static/src/js/website_snippet_anchor.js:27
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: website_snippet_anchor
+#. openerp-web
+#: code:addons/website_snippet_anchor/static/src/xml/website_snippet_anchor.xml:19
+#, python-format
+msgid "your-anchor"
+msgstr "su-ancla"

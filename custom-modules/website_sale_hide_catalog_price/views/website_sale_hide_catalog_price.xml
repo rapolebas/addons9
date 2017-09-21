@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <template id="products_item" inherit_id="website_sale.products_item" name="Shop Without Catalog Price">
+            <xpath expr="//del[@class='text-danger mr8']" position="replace">
+                <field name="text-danger" invisible="1" nolabel="1"/>
+            </xpath>
+        </template>
+
+        <template id="cart" inherit_id="website_sale.cart_lines" name="Shopping Cart Without Catalog Price">
+            <xpath expr="//del[@t-field='line.product_id.lst_price']" position="replace">
+                <field name="text-danger" invisible="1" nolabel="1"/>
+            </xpath>
+        </template>
+
+        <template id="product_price" inherit_id="website_sale.product_price" name="Product Page Without Catalog Price">
+            <xpath expr="//span[@class='text-danger oe_default_price']" position="replace">
+                <field name="text-danger oe_default_price" invisible="1" nolabel="1"/>
+            </xpath>
+        </template>
+
+        <template id="suggested_products_list" inherit_id="website_sale.cart_lines" name="Suggested Products Without Catalog Price">
+            <xpath expr="//del[@class='text-danger mr8']" position="replace">
+                <field name="text-danger" invisible="1" nolabel="1"/>
+            </xpath>
+        </template>
+
+        <template id="modal_cart" inherit_id="website_sale_options.modal" name="Modal Cart Without Catalog Price">
+            <xpath expr="//span[@t-attf-class='text-danger oe_default_price']" position="replace">
+                <field name="text_danger oe_default_price" invisible="1" nolabel="1"/>
+            </xpath>
+            <xpath expr="//span[@class='text-danger oe_optional']" position="replace">
+                <field name="text-danger oe_optional" invisible="1" nolabel="1"/>
+            </xpath>
+        </template>
+    </data>
+</openerp>
